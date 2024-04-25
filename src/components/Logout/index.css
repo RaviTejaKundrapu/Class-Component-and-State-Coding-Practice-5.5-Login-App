@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.styled_btn {
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  padding: 9px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+@media all and (min-width: 767px) {
+  .styled_btn {
+    font-size: 33px;
+  }
+}
